@@ -12,10 +12,18 @@ criando um CSV com os países do mundo com
 
 - Intruções de como montar o ambiente estão abaixo mas, se preferir, rode somente o comando abaixo para gerar o CSV a partir
 de uma imagem que colocamos no dockerhub:
-```bash
-    docker run -v .:/usr/src/app/compartilhado gustavotorregrosa/kakautech:v1
 
+
+*linux/mac*
+```bash 
+    docker run -v .:/usr/src/app/compartilhado gustavotorregrosa/kakautech:v1
 ```
+
+*windows*
+```bash
+    docker run -v .:/usr/src/app/compartilhado gustavotorregrosa/kakautech:v2
+```
+
 
 - Montamos um ambiente em docker, mas também deixamos abaixo as instruções para rodar como virtual env:
 ```bash
